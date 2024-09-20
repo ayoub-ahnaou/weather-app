@@ -1,24 +1,108 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    background: #4d4d4d;
-    justify-content: center;
-    align-items: center;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  background: #4d4d4d;
+  justify-content: center;
+  align-items: center;
 }
 
 .card {
-    height: 700px;
-    width: 550px;
-    background: white;
-    border-radius: 10px;
-    box-shadow: 10px 10px 10px black;
-    background: rgb(239,221,255);
-    background: linear-gradient(90deg, rgb(176, 255, 225) 0%, rgb(142, 194, 253) 100%);
+  height: 660px;
+  width: 500px;
+  background: white;
+  border-radius: 5px;
+  box-shadow: 10px 10px 10px black;
+  background: rgb(239, 221, 255);
+  background: linear-gradient(
+    90deg,
+    rgb(176, 255, 225) 0%,
+    rgb(142, 194, 253) 100%
+  );
+}
+
+.top-side {
+  display: flex;
+  padding: 10px;
+  gap: 6px;
+}
+
+.top-side input {
+  width: 100%;
+  height: 32px;
+  outline: none;
+  border: none;
+  border-radius: 3px;
+  padding-inline: 10px;
+  font-size: medium;
+}
+
+.top-side button {
+  background: white;
+  padding: 4px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.middle-side {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.middle-side img {
+  height: 250px;
+}
+
+.middle-side p {
+  color: white;
+  font-weight: bold;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.temperature {
+  font-size: 5em;
+}
+
+.city {
+  font-size: 2em;
+}
+
+.bottom-side {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 64px;
+    gap: 56px;
+}
+
+.bottom-side .left-side,
+.bottom-side .right-side {
+    display: flex;
+    color: white;
+    font-weight: bold;
+}
+
+.bottom-side .left-side img,
+.bottom-side .right-side img {
+    width: 50px;
+}
+
+.infos {
+    padding-left: 4px;
+}
+
+.infos .numbers {
+    font-size: 2em;
+    font-family: system-ui;
 }
