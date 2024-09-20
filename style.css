@@ -80,30 +80,30 @@ body {
 }
 
 .bottom-side {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-top: 64px;
-    gap: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 64px;
+  gap: 56px;
 }
 
 .bottom-side .left-side,
 .bottom-side .right-side {
-    display: flex;
-    color: white;
-    font-weight: bold;
+  display: flex;
+  color: white;
+  font-weight: bold;
 }
 
 .bottom-side .left-side img,
 .bottom-side .right-side img {
-    width: 50px;
+  width: 50px;
 }
 
 .infos {
-    padding-left: 4px;
+  padding-left: 4px;
 }
 
 .infos .numbers {
-    font-size: 2em;
-    font-family: system-ui;
+  font-size: 2em;
+  font-family: system-ui;
 }
