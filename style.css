@@ -21,15 +21,16 @@ body {
   box-shadow: 10px 10px 10px black;
   background: rgb(239, 221, 255);
   background: linear-gradient(
-    90deg,
-    rgb(176, 255, 225) 0%,
-    rgb(142, 194, 253) 100%
+    145deg,
+    rgb(109, 255, 199) 0%,
+    rgb(12, 198, 255) 50%,
+    rgb(69, 72, 255) 100%
   );
 }
 
 .top-side {
   display: flex;
-  padding: 10px;
+  padding: 20px;
   gap: 6px;
 }
 
@@ -38,7 +39,7 @@ body {
   height: 32px;
   outline: none;
   border: none;
-  border-radius: 3px;
+  border-radius: 5px;
   padding-inline: 10px;
   font-size: medium;
 }
