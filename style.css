@@ -8,12 +8,20 @@ body {
   width: 100%;
   height: 100vh;
   display: flex;
-  background: #4d4d4d;
   justify-content: center;
   align-items: center;
 }
 
+.bg {
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  object-fit: cover;
+  filter: blur(4px);
+}
+
 .card {
+  position: relative;
   height: 660px;
   width: 500px;
   background: white;
@@ -22,7 +30,7 @@ body {
   background: rgb(239, 221, 255);
   background: linear-gradient(
     145deg,
-    rgb(109, 255, 199) 0%,
+    rgb(176, 255, 248) 0%,
     rgb(12, 198, 255) 50%,
     rgb(69, 72, 255) 100%
   );
