@@ -6,8 +6,8 @@ Welcome to the **Weather App**! This web application provides real-time weather 
 A live demo of the app is available at: [Demo Link](https://ayoub-ahnaou.github.io/weather-app/)
 
 ## How to Use 🚀
-1- Open the application in your web browser.
-2- Enter the city name in the search bar.
-3- Press the search button or hit enter.
-4- View the weather details for the selected city.
+* 1- Open the application in your web browser.
+* 2- Enter the city name in the search bar.
+* 3- Press the search button or hit enter.
+* 4- View the weather details for the selected city.
 
